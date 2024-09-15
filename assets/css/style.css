@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url('../fonts/Minecraft.ttf')
+}
+
+body {
+  min-height: 100vh;
+  font-family: Minecraft;
+  color: #f8fafc;
+
+  background-color: #030712;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(transparent, #030712 75%), url('../img/background.png');
+}
+
+main {
+  padding-top: 4rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section + section {
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 80%;
+  max-width: 1000px;
+}
